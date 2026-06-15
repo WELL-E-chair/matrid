@@ -29,7 +29,7 @@ This tool relied on video recordings of cows using a set of fixed cameras positi
 Figure shows: (top, left) Aerial view of the McGill Farm; (center) Top-down view of the paddock, the corridor that leads to it from the barn, the paddock and of the 8 cameras used to record the experiment. There are four 180-degree cameras located along the north, south, east and west paddock fences, and four 90-degree cameras (labeled 1, 2, 3 and 4) located at the center of the paddock and oriented toward paddock corners.
 
 
-<img width="1200" height="550" alt="" src="https://github.com/WELL-E-chair/matrid/blob/main/images/matrid3.png?raw=true" />
+<img width="400" height="260" alt="" src="https://github.com/WELL-E-chair/matrid/blob/main/images/matrid3.png?raw=true" />
 
 Figure shows various definitions of a cow position: head position, center of mass position and bounding box.
 For convenience, cow position is represented using a rectangular bounding box (BB), which gives information on the cow location in the camera field of view, its proximity to the camera, and its orientation in space and posture. 
@@ -45,7 +45,7 @@ Due to the slow movements and posture changes of cows (due to their size and the
 The animal’s position between the sampled frames is then inferred using linear interpolation and low-pass filtering.
 We call the resulting trajectory Silver Standard and make the assumption that it is close enough to the Gold Standard for our analysis of social networks and cow interactions.
 
-<img width="1200" height="300" alt="" src="https://github.com/WELL-E-chair/matrid/blob/main/images/matrid6.png?raw=true" />
+<img width="1400" height="400" alt="" src="https://github.com/WELL-E-chair/matrid/blob/main/images/matrid6.png?raw=true" />
 
 Figure shows trajectory of a cow (red curve) sampled every second (left), then linearly interpolated and low-pass filtered (right).
 
@@ -169,3 +169,4 @@ At the end of each trajectory, the main window displays a summary of the trackin
 <img width="600" height="350" alt="" src="https://github.com/WELL-E-chair/matrid/blob/main/images/matrid16.png?raw=true" />
 
 These are used to help estimate the performance of the tracking algorithm and find ways to improve it.
+
