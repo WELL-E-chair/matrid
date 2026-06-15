@@ -51,13 +51,13 @@ clear;
 % *************************************************************************
 
 % location of videos
-vid_folder = 'C:\Users\PC Well-E 1\Desktop\video_storage\tracking_5min';
+vid_folder = 'path\to\video_folder';
 
 % name of the video
-my_file = '180-North_tattooed.mp4';
+my_file = 'video_name.mp4';
 
 % location of the files for the analysis
-results_folder = 'C:\Users\PC Well-E 1\OneDrive - UQAM\Computer Vision\projects\tracking\manual_track_ident_script';
+results_folder = 'path\to\results_folder';
 
 % time resolution for the manual tracking (in seconds)
 delta_t = 1;
